@@ -1,0 +1,40 @@
+@import "superinfo_bg.css";
+@import "menu.css";
+@import "introducao.css";
+@import "produtos.css";
+@import "precos.css";
+@import "qualidade.css";
+@import "footer.css";
+
+body,
+h1,
+h2,
+p,
+ul,
+li,
+a {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Nunito", Arial, Helvetica, sans-serif;
+  color: #222222;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
